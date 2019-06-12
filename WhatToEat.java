@@ -7,8 +7,8 @@ public class WhatToEat {
 		
 		//1.) Get user input for event type.
 		System.out.println("Please state if your event type is casual, semi-formal, or formal:");
-	    String eventType = scan.nextLine();
-	    String mealSuggestion = null; 
+	        String eventType = scan.nextLine();
+	        String mealSuggestion = null; 
 		eventType = eventType.toLowerCase();		
 	    
 	    
@@ -45,7 +45,7 @@ public class WhatToEat {
 				prepSuggestion = "by a caterer";
 			}
 			
-			String result = "Since you’re hosting a " + eventType + " event for " +  partySize + " participant(s)," + 
+			String result = "Since youâ€™re hosting a " + eventType + " event for " +  partySize + " participant(s)," + 
 	                " you should serve " + mealSuggestion + " prepared " + prepSuggestion + ".";
 			
 			System.out.println(result);
